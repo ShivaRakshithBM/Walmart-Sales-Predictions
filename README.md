@@ -24,7 +24,7 @@ Blank / Null value treatment: 7% of the CPI and Unemployment values had NA or bl
 Outlier treatment: Outliers are seen since, on some weeks where in there is a holiday, people tend to buy more goods. They are kept since they arenot erroneous
 
 Modelling:
-1) Have used Linear Regression modelling for predictions. Have implemented Forward selection to get the best model
+1) Have used Linear Regression modelling for predictions. Have implemented Forward selection to get the best model 
 2) Have built the model with and without the interaction variables. Presence of Interaction variables produce better results
 
 Evaluation:
