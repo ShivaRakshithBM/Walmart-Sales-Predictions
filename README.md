@@ -34,10 +34,10 @@ Evaluation:
 Validity of assumptions:
 1) The relationship between the dependant and the independant variables should be linear in nature
 2) The errors obtained from the model should be normally distributed
-3) The factors should not be correlated to each other
+3) The factors should not be correlated to each other i.e independent of each other
 
 Deployment (Next Steps):
-1)  It can also be automated so that on a monthly basis when the data changes, the predictions can be produced and used. We can connect the model to the platform from where the data is stored
+The model to identify can be deployed in the WAlmart stores through a central cloud server. The impact of the drivers can be analysed and then manipulated to see the impact of them on the sales
 
 Results:
 1) Factors like Size, Week of the year, Total Markdowns, Holidays has a positive effect on Weekly sales
