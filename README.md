@@ -1,44 +1,55 @@
 Problem statement: 
+
 Identify the factors which affecct the sales of Walmart for each type of store. Along with this, predict the sales for the same.
 
 Questions:
+
 1) What are the factors which contribute to sales of Walmart? How to evaluate them?
 2) What is the modelling technique to predict the sales of each Walmart category of stores? How to evaluate them?
 
 Approach:
+
 Followed the 6 stage framework of CRISP Data Mining process
 
 Business understanding:
+
 1) There are 3 tyes of Walmart stores - Walmart Supercenter, Walmart Discount store, Walmart Neighborhood markets
 2) The factors affecting each type of store type should be differet from the other store types. This is due to the differneces of location, size of the stores, type of products, other divisions of retail present like cafes, salons s
 
-Data understanding
+Data understanding:
+
 1) The data is a longitudinal. It has the Store, Department, Week, month, year, Sales, Economic factors like: temperature, Fuel price, MArkdowns, CPI, unemployment, holiday
 2) The dataset consists of ~420,000 instances ranging from 2010 to 2012
 3) Walmart has 4 holidays - Super Bowl, Labor Day, Thanksgiving and Christmas
 
 Data Preperation: 
+
 Target variable Transformation: The target variable of the Weekly sales is highly skewed. So have taken the log transformation of it
 Independent variables Transformation: There are 5 different types of Mqrkdowns given. Since they are not described, all the 5 have been summed to a main Markdown factor
 Blank / Null value treatment: 7% of the CPI and Unemployment values had NA or blanks. Also 50% of the Markdown values had NAs. So replaced them with 0 to not lose the other information present in those records.
 Outlier treatment: Outliers are seen since, on some weeks where in there is a holiday, people tend to buy more goods. They are kept since they arenot erroneous
 
 Modelling:
+
 1) Have used Linear Regression modelling for predictions. Have implemented Forward selection to get the best model 
 2) Have built the model with and without the interaction variables. Presence of Interaction variables produce better results
 
 Evaluation:
+
 1) For driver identification, Have used the p-value, R square value and adjusted R square values which were obtained during the models' building process
 2) For predicting the sales, verified the model against a Baseline model which is the mean of the all the sales values for their respective store types
 
 Validity of assumptions:
+
 1) The relationship between the dependant and the independant variables should be linear in nature
 2) The errors obtained from the model should be normally distributed 
-3) The factors should not be correlated to each other i.e independent of each other
+3) The factors should not be correlated to each other i.e independent of one another
 
 Deployment (Next Steps): 
+
 The model can be deployed in the WAlmart stores through a central cloud server. The impact of the drivers can be analysed and then manipulated to see the impact of them on the sales
 
 Results:
+
 1) Factors like Size, Week of the year, Total Markdowns, Holidays has a positive effect on Weekly sales
 2) Factors like CPI, Unemployment and Fuel price has a negative effect on Weekly sales
