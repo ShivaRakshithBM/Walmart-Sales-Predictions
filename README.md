@@ -36,8 +36,8 @@ Validity of assumptions:
 2) The errors obtained from the model should be normally distributed 
 3) The factors should not be correlated to each other i.e independent of each other
 
-Deployment (Next Steps):
-The model to identify can be deployed in the WAlmart stores through a central cloud server. The impact of the drivers can be analysed and then manipulated to see the impact of them on the sales
+Deployment (Next Steps): 
+The model can be deployed in the WAlmart stores through a central cloud server. The impact of the drivers can be analysed and then manipulated to see the impact of them on the sales
 
 Results:
 1) Factors like Size, Week of the year, Total Markdowns, Holidays has a positive effect on Weekly sales
