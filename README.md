@@ -33,7 +33,7 @@ Evaluation:
 
 Validity of assumptions:
 1) The relationship between the dependant and the independant variables should be linear in nature
-2) The errors obtained from the model should be normally distributed
+2) The errors obtained from the model should be normally distributed 
 3) The factors should not be correlated to each other i.e independent of each other
 
 Deployment (Next Steps):
