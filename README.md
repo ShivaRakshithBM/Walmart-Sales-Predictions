@@ -17,7 +17,7 @@ Data understanding
 2) The dataset consists of ~420,000 instances ranging from 2010 to 2012
 3) Walmart has 4 holidays - Super Bowl, Labor Day, Thanksgiving and Christmas
 
-Data Preperation:
+Data Preperation: 
 Target variable Transformation: The target variable of the Weekly sales is highly skewed. So have taken the log transformation of it
 Independent variables Transformation: There are 5 different types of Mqrkdowns given. Since they are not described, all the 5 have been summed to a main Markdown factor
 Blank / Null value treatment: 7% of the CPI and Unemployment values had NA or blanks. Also 50% of the Markdown values had NAs. So replaced them with 0 to not lose the other information present in those records.
