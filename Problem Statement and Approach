@@ -42,3 +42,7 @@ The model can be deployed in the WAlmart stores through a central cloud server. 
 Results:
 1) Factors like Size, Week of the year, Total Markdowns, Holidays has a positive effect on Weekly sales
 2) Factors like CPI, Unemployment and Fuel price has a negative effect on Weekly sales
+
+Learnings:
+1) Interpretation of p-value and r square value
+2) Validation Process for the assumptions of Linear regression 
